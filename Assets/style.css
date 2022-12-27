@@ -12,33 +12,24 @@ body {
 
 header {
   text-align: center;
-margin-bottom: 5px;
-}
-
-p {
-  text-justify: center;
-  margin-bottom: ;
 }
 /* h1 {
 
 } */
-/* .row1 {
+.row1 {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 gap: 20px;
-} */
-
+}
+}
 
 .card-column {
 	display: flex;
-  flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
- 
-
-    /* transition: 500ms ease-in-out; */
-    /* margin-bottom: 1.5rem; */
+    flex: 0 0 100%;
+    padding: 1.5rem;
+    transition: 500ms ease-in-out;
+    margin-bottom: 1.5rem;
     border-style: dashed;
     border-color: var(--dark);
     border-width: 2px;
